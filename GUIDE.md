@@ -19,7 +19,7 @@ Yazh is one Windows portable file.
 Windows may show **“Windows protected your PC”** because the app is not
 code-signed. Choose **More info → Run anyway**.
 
-The macOS `.dmg` is delayed while the hosted Mac build runner is unavailable.
+The macOS `.dmg` is available. Open the DMG, drag **Yazh** into Applications, and right-click **Open** the first time; Gatekeeper blocks unsigned apps by default.
 
 ### Updating
 
@@ -423,9 +423,11 @@ needs microphone permission; Windows Settings → Privacy → Microphone.
 Heavy pages (Raga explorer, Practice tools, Compositions) load on demand. The
 dashboard is kept light.
 
-**The Mac app is not on the releases page.**
-The Windows app is available now. The macOS build is delayed by GitHub's hosted
-runner and will be added when it is available.
+**The Mac app is on the releases page.**
+Download the universal DMG, drag **Yazh** into Applications, and right-click
+**Open** the first time. The app is unsigned, so Gatekeeper shows a warning; this
+is expected. If macOS still blocks it, use **System Settings → Privacy & Security
+→ Open Anyway**.
 
 **How do I start over completely?**
 Close Yazh. Copy or rename `%APPDATA%\Yazh\data` (Windows) or

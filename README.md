@@ -17,7 +17,7 @@ account, no subscription, no telemetry.
 | File | Use it for |
 |---|---|
 | **`Yazh-1.18.0-portable.exe`** | Windows — available now |
-| **macOS DMG** | Delayed — hosted Mac runner unavailable |
+| **`Yazh-1.18.0-universal.dmg`** | macOS — available now |
 | **`SHA256SUMS.txt`** | Checksums |
 
 Double-click the `.exe`. There is no installer. A short welcome asks for your
@@ -92,8 +92,8 @@ dated database snapshot before changing the schema.
 - **Fixed** packaged update-check version reporting.
 - **Faster dashboard** — heavy pages load on demand.
 
-The Windows app is available now. The macOS build is delayed by GitHub's hosted
-runner and will be added when it runs.
+Both the Windows portable app and the macOS universal DMG are available now.
+The macOS app is unsigned; right-click **Open** the first time.
 
 ## Verify a download
 
